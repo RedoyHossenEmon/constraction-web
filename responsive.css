@@ -1,0 +1,168 @@
+@media only screen and (max-width:600px) {
+   .container {
+     width: 94%
+   }
+   #phem {
+     padding: 13.5px 3px 13.5px 0;
+     margin-right: 15px
+   }
+   div#topbermain {
+     padding: 0 10px
+   }
+   .logo {
+     width: 100%;
+     float: left
+   }
+   .logo img {
+     width: 145px
+   }
+   #bars {
+     width: 30px;
+     height: 20px;
+     float: right;
+     transform: translateY(17px);
+     color: tomato;
+     font-size: 20px;
+     opacity: 1
+   }
+   ul.manuteam {
+     width: 100%;
+     float: none;
+     padding: 0;
+     transform: scaleY(0);
+     transform-origin: top;
+     display: none;
+     transition: all .3s
+   }
+   ul.manuteam2 {
+     float: left!important;
+     transform: scaleY(1) ;
+     display: block
+   }
+   .manuteam li {
+     padding: 10px 12px;
+     float: none;
+     background: #00bfff;
+     border-bottom: 3px solid #ddd;
+     transition: .2s;
+
+   }
+   i.fas.fa-chevron-down {
+     margin-top: 5px;
+     float: right;
+     font-size: 13px
+   }
+   ul.subManu {
+     width: 100%;
+     padding: 0;
+     margin: 0;
+     border-top: 1px solid #ddd;
+}
+   ul.subManu2 {
+    position: relative;
+     transform: scaleY(1)!important;
+     visibility: visible !important;
+
+}
+   ul.subManu2 li {
+     margin-left: -10;
+     padding: 10px 40px;
+     width: 100%;
+     background: #3990ad
+   }
+   ul.subManu li :last-child {
+     border-bottom: 0
+   }
+   .subManu li:hover {
+     padding-left: 80px;
+     font-size: 22px;
+   }
+   
+.manuteam #manuPage:hover .subManu {
+  visibility: hidden;
+  transform: scaleY(0);
+}
+
+   .siglebox {
+     width: 100%;
+     margin-bottom: 20px
+   }
+   .teamimg {
+     width: 100%
+   }
+   .singleicon {
+     width: 100%;
+     margin-bottom: 20px
+   }
+   .imagecontent {
+     width: 100%;
+     margin-bottom: 25px
+   }
+   .start {
+     width: 100%;
+     margin-bottom: 20px;
+     padding-left: 75px
+   }
+   .ideaimg {
+     height: 0px;
+   }
+   .idearightcontent {
+     width: 100%
+   }
+   .teammember {
+     width: 100%;
+     margin-bottom: 25px
+   }
+   .teammember {
+     padding-left: 0
+   }
+   .teanicons a {
+     width: 35px;
+     height: 35px
+   }
+   .teanicons {
+     width: 190px;
+     height: 68px
+   }
+   .singleproject {
+     width: 100%
+   }
+   .projactsall {
+     width: 100%;
+     column-count: 1
+   }
+   .singleproject:hover .projactmeta {
+     padding-bottom: 80px
+   }
+   .singlenews {
+     width: 100%;
+     margin-bottom: 20px
+   }
+   .singlenews {
+     margin-left: 0px
+   }
+   .Newscontent p {
+    width: 100%;}
+    .fbox {
+      width: 100%;
+      margin-bottom: 60px;}
+
+      .fbox:last-child {
+        width: 100%;
+      }
+      .fboxwrapper {
+        overflow: hidden;
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+
+    .copywritemenu {
+      width: 295px;
+      float: none;
+      padding-top:0px;
+      padding-bottom: 25px;
+      overflow: hidden;
+  }
+
+
+ }
